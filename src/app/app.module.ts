@@ -7,11 +7,13 @@ import { ProductListComponent } from "./product-list/product-list.component";
 import { HttpClientModule } from '@angular/common/http';
 import { AddProductComponent } from './add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { EditProductComponent } from './edit-product/edit-product.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        AddProductComponent
+        AddProductComponent,
+        EditProductComponent
     ],
     providers: [
         provideClientHydration()

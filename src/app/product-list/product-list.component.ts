@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Product } from '../product';
 import { ProductService } from '../product.service';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
@@ -12,7 +13,8 @@ import { CommonModule } from '@angular/common';
 export class ProductListComponent {
   products: Product[];
 
-  constructor(private productService: ProductService){}
+  constructor(private productService: ProductService,
+    private routing: Router ){}
   
   ngOnInit() {
     this.getProducts();
@@ -23,4 +25,9 @@ private getProducts(){
     this.products = data;
   });
 }
+
+  editProduct(id: number){
+    this.routing.navigate(['edit-product', id]);
+  }
+
 }
