@@ -12,7 +12,6 @@ This project is the frontend interface for an inventory management system built 
 
 - **Angular**: Framework for building single-page applications.
 - **Bootstrap**: Frontend component library for responsive design.
-- **RxJS**: Reactive programming library for handling asynchronous operations.
 - **Angular CLI**: Command-line interface for Angular development.
 
 ## Prerequisites
