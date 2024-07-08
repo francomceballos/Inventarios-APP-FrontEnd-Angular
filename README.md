@@ -1,27 +1,73 @@
-# InventarioApp
+# Angular Frontend for Inventory Management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project is the frontend interface for an inventory management system built with Angular. It communicates with a backend API to manage products and inventory data.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **User Interface**: Provides a responsive UI for managing products.
+- **CRUD Operations**: Allows users to Create, Read, Update, and Delete products.
+- **Integration**: Integrates with the backend API for data exchange.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework for building single-page applications.
+- **Bootstrap**: Frontend component library for responsive design.
+- **RxJS**: Reactive programming library for handling asynchronous operations.
+- **Angular CLI**: Command-line interface for Angular development.
 
+## Prerequisites
+
+Before running the application locally, make sure you have the following installed:
+
+- Node.js (Recommended version)
+- Angular CLI
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/inventory-management-frontend.git
+   cd inventory-management-frontend
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+## Development Server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+ng serve
+```
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the dist/ directory.
+```bash
+ng build
+```
 
-## Running unit tests
+## Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Before starting the frontend, ensure that the backend server is running. You need the backend API to be accessible at `http://localhost:8080/inventario-app` for full functionality.
 
-## Running end-to-end tests
+Once both servers are running:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    Open your browser and navigate to http://localhost:4200/.
+    Interact with the interface to manage products.
 
-## Further help
+Remember you need to run the backend for it to work
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contributions are welcome! If you want to contribute to this project, follow these steps:
+
+    Fork the repository on GitHub.
+    Create a new branch (git checkout -b feature/new-feature).
+    Make necessary changes and commit (git commit -am 'Add new feature').
+    Push to the branch (git push origin feature/new-feature).
+    Create a new Pull Request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
