@@ -18,7 +18,7 @@ This project is the frontend interface for an inventory management system built 
 
 Before running the application locally, make sure you have the following installed:
 
-- Node.js (Recommended version)
+- Node.js
 - Angular CLI
 
 ## Installation
