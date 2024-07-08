@@ -1,6 +1,7 @@
 # Angular Frontend for Inventory Management
 
-This project is the frontend interface for an inventory management system built with Angular. It communicates with a backend API to manage products and inventory data.
+This project is the frontend interface for an inventory management system built with Angular. It communicates with a backend API to manage products and inventory data. This is a passion project aimed at learning fullstack development using Angular and Java.
+
 
 ## Features
 
